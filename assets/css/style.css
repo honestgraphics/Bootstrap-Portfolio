@@ -1,16 +1,22 @@
 /* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
 
-/* Home/Index.html/About */
+/* FOR ALL PAGES */
 
 
 body {
     background-image: url("../images/b1.png");
 }
 
+
+.bodyWidth {
+    /* padding: 0; */
+    margin-left: 0;
+}
+
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
 /* HEADER AREA */
 
-.headerWrapper {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+/* .headerWrapper {
     font-size: 24px;
     border-top: 2px solid #d0cdc7;
     border-bottom: 2px solid #d0cdc7;
@@ -30,13 +36,15 @@ body {
     background-color: #11ab9f;
     color: white;
     display: inline-block;
-}
+} */
 
 .Jeannie {
     font-size: 40px;
     padding-left: 40px;
     font-family: 'Homemade Apple', cursive;
     display: inline-block;
+    color: white;
+    background-color: #11ab9f;
 }
 
 .Rose {
@@ -44,31 +52,43 @@ body {
     font-family: 'Francois One', sans-serif;
     display: inline-block;
     padding-right: 40px;
+    color: white;
+    background-color: #11ab9f;
 }
 
-.pageLink {
-    padding-top: 50px;
-    padding-bottom: 25px;
-}
 
-.pageLink a {
-    text-decoration: none;
+
+/* POSITIONS & STYLES SEPERATORS */
+.navbar-nav li {
+    display: inline;
+    color: #a6acb7;
+    /* margin-left: 25px;
+    padding-left: 25px; */
+    }
+
+.navbar-light .navbar-nav .nav-link {
     color: #a6acb7;
 }
 
-.pageLink a:hover {
-    color: #11ab9f;
+.seperator {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 26px;
 }
 
+
+
+/* STYLES MENU LINKS */
 .link1 {
-    border-right: 1px solid #e2e0dd;
+    /* border-right: 1px solid #e2e0dd; */
     padding-right: 20px;
     padding-left: 20px;
     font-family: 'Francois One', sans-serif;
 }
 
 .link2 {
-    border-right: 1px solid #e2e0dd;
+    /* border-right: 1px solid #e2e0dd; */
     padding-right: 20px;
     padding-left: 20px;
     font-family: 'Francois One', sans-serif;
@@ -79,12 +99,40 @@ body {
     font-family: 'Francois One', sans-serif;
 }
 
+.headerClass {
+    border-top: 2px solid #d0cdc7;
+    border-bottom: 2px solid #d0cdc7;
+    background-color: white;
+    font-size: 24px;
+}
+
+.navbar-brand {
+    color: white;
+    background-color: #11ab9f;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.menuItems {
+    /* border-right: 1px solid #e2e0dd; */
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Francois One', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #a6acb7;
+}
+
 /* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
 
 
 /* MAIN CONTENT AREA */
 
-.bodyContainer {
+/* .bodyContainer {
     width: 85%;
     margin: 0 auto;
 }
@@ -93,10 +141,11 @@ body {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-}
+} */
+
+
 
 .aboutmeWrapper {
-    width: 65%;
     background-color: #fff;
     margin-top: 25px;
     padding-right: 30px;
@@ -106,6 +155,7 @@ body {
     font-size: 18px;
     border: 1px solid #e2e0dd;
 }
+
 
 .aboutMe {
     border-bottom: 3px solid #eeedeb;
@@ -134,7 +184,7 @@ p {
 ul {
     list-style-type: circle;
     color: #656565;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-bottom: 18px;
     line-height: 37px;
 }
@@ -142,7 +192,7 @@ ul {
 .connectwithmeWrapper {
     background-color: #fff;
     margin-top: 25px;
-    width: 21%;
+    /* width: 21%; */
     height: 100%;
     padding-right: 30px;
     padding-left: 30px;
@@ -153,7 +203,8 @@ ul {
 
 .connectwithMe {
     font-size: 24px;
-    font-style: bold;
+    width: 100%;
+    /* font-style: bold; */
     border-bottom: 2px solid #efeeec;
     margin-bottom: 24px;
     padding-bottom: 24px;
@@ -165,7 +216,7 @@ ul {
     width: 100%;
     } */
 
-.imageLink {
+/* .imageLink {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -185,7 +236,7 @@ ul {
 .social3 {
     display: flex;
     justify-content: space-between;
-}
+} */
 
 /* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
 
@@ -196,7 +247,6 @@ footer {
     background-color: #666666;
     color: #aeaeae;
     text-align: Center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding-top: 25px;
     padding-bottom: 25px;
     font-size: 16px;
@@ -208,10 +258,26 @@ footer {
 
 /* Portfolio Page */
 
-.portfolioContainer {
-    flex-flow: row wrap; */
-    width: 100%;
-    box-sizing: border-box;
+.portfolioWrapper {
+    background-color: #fff;
+    margin-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    border: 1px solid #e2e0dd;
+}
+
+.Portfolio {
+    border-bottom: 3px solid #eeedeb;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-style: bold;
+    color: #11ab9f;
+    font-family: 'Francois One', sans-serif;
 }
 
 .portfolioRow1 {
@@ -341,21 +407,22 @@ input[type=text], select, textarea {
 ::placeholder {
     color: #a1a6ac;
     opacity: 1;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
  
 
-input[type=submit] {
+button[type=submit] {
     background-color: #56aaa4;
     color: white;
     padding: 12px 40px;
+    margin-bottom: 30px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Francois One', sans-serif;
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
     background-color: #3d7a76;
 }

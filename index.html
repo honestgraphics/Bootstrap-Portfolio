@@ -10,56 +10,66 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Francois+One|Homemade+Apple" rel="stylesheet">
+    <style>
+        .nav-item a:hover {
+            color: #13ad9a !important;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
-        <span class="border-top"></span>
-        <span class="border-bottom"></span>
-        <div class="row"> <!-- HEADER ROW -->
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                    <div class="col-1">
-                    </div>
-                    <div class="col-10">
-                        <div class="row">
-                            <a class="navbar-brand" href="#"><h1 class="jeannie">Jeannie </h1><h1 class="rose">Rose</h1></a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="index.html">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
+    <div class="row headerClass"> <!-- HEADER ROW -->
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="col-1">
+                </div>
+                <div class="col-10">
+                    <div class="row">
+                        <a class="navbar-brand" href="#"><h1 class="Jeannie">Jeannie </h1><h1 class="Rose">Rose</h1></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link menuItems link1" href="index.html">About</a>
+                                </li>
+                                <li class="seperator">
+                                    |
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link menuItems link2" href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="seperator">
+                                        |
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link menuItems link3" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </nav>
-            </div>
-        </div> <!-- HEADER ROW CLOSE -->
-    
+                </div>
+            </nav>
+        </div>
+    </div> <!-- HEADER ROW CLOSE -->
+
 
     <div class="row">
         <div class="col-1">
         </div>
         <div class="col-10">
             <div class="row">
-                <div class="col-8"> <!-- ABOUT ME COLUMN -->
+                <div class="col-8 aboutmeWrapper"> <!-- ABOUT ME COLUMN -->
                     <div class="row">
-                            <div class="col-12">
-                                <h1 class="title">About Me</h1>
+                            <div class="col-12 bodyWidth">
+                                <h1 class="title aboutMe">About Me</h1>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-12 bodyWidth">
                                 <img class ='portrait' src='assets/images/profileimage.jpg' height="150" width="150" alt="Image" />
                                 <p>I am currently working on getting Certified as a Full Stack Web Developer and I already have experience doing Web Design, Print Design, & Commercial Videos since 1999.  I also have my BS in Nursing and I am a Registered Nurse.</p>
                                 <p>As a Designer, I have a great deal of experience with the following:</p>
@@ -86,13 +96,15 @@
                                 <p>I currently work Per Diem as an OR Nurse. The experience that I have gained working as a Nurse has helped me to develope excellent communication skills, critical thinking skills, and attention to detail.</p>
                             </div>
                         </div>
-
+                
                 </div> <!-- ABOUT ME COLUMN CLOSE -->
-                <div class="col-4"> <!-- CONNECT WITH ME COLUMN -->
+                <div class="col-1"> <!-- ABOUT ME COLUMN -->
+                </div>
+                <div class="col-3 connectwithmeWrapper"> <!-- CONNECT WITH ME COLUMN -->
                     <div class="row">
                         <div class="col-12">
                             <div class="row">
-                                <h1 class="title">Connect With Me</h1>
+                                <h1 class="title connectwithMe">Connect With Me</h1>
                             </div>
                             <div class="row">
                                 <div class="col-4">

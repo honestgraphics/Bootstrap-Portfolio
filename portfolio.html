@@ -11,31 +11,43 @@
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Francois+One|Homemade+Apple" rel="stylesheet">
+    <style>
+        .nav-item a:hover {
+            color: #13ad9a !important;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="row"> <!-- HEADER ROW -->
+    <div class="row headerClass"> <!-- HEADER ROW -->
         <div class="col-12">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
                 <div class="col-1">
                 </div>
                 <div class="col-10">
                     <div class="row">
-                        <a class="navbar-brand" href="#"><h1 class="jeannie">Jeannie </h1><h1 class="rose">Rose</h1></a>
+                        <a class="navbar-brand" href="#"><h1 class="Jeannie">Jeannie </h1><h1 class="Rose">Rose</h1></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ml-auto">
+                        <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html">About</a>
+                                    <a class="nav-link menuItems link1" href="index.html">About</a>
+                                </li>
+                                <li class="seperator">
+                                    |
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                    <a class="nav-link menuItems link2" href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="seperator">
+                                        |
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link menuItems link3" href="contact.html">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -47,98 +59,107 @@
 
 
     <div class="row">
-        <div class="col-1">
-        </div>
-        <div class="col-10">
-            <div class="row">
-                <div class="col-8"> <!-- PORTFOLIO COLUMN -->
-                    <div class="row">
-                        <div class="col-12">
-                            <h1 class="title">Portfolio</h1>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class='portfolio1'>
-                                <img src="assets/images/hw1_0002_images.png">
-                                <a href='#' class='picture'>Hangman
-                                </a>
+            <div class="col-1">
+            </div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-8 portfolioWrapper"> <!-- PORTFOLIO COLUMN -->
+                        <div class="row">
+                            <div class="col-12 bodyWidth">
+                                <h1 class="title Portfolio">
+                                    Portfolio
+                                </h1>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class='portfolio2'>
-                                <img src="assets/images/hw1_0003_haxDX77JK9znAxkb3y5HKTwv.png">
-                                <a href='#' class='picture'>RPG Game
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class='portfolio3'>
-                                <img src="assets/images/hw1_0005_Screenshot-2016-01-25-16.42.12.png">
-                                <a href='#' class='picture'>Trivia Game
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class='portfolio4'>
-                                <img src="assets/images/hw1_0000_download-(1).png">
-                                <a href='#' class='picture'>Rutgers Info Widget
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class='portfolio5'>
-                                <img src="assets/images/untitled-1.png">
-                                <a href='#' class='picture'>Rock Paper Scissors
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                        </div>
-                    </div>
-                </div> <!-- PORTFOLIO COLUMN CLOSE -->
-                <div class="col-4"> <!-- CONNECT WITH ME COLUMN -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="row">
-                                <h1 class="title">Connect With Me</h1>
-                            </div>
-                            <div class="row">
-                                <div class="col-4">
-                                    <a href="https://stackexchange.com/users/12941379/jeannie-rose">
-                                        <img alt="Github" src="../honestgraphics.github.io/assets/images/stackoverflow.png">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class='portfolio1'>
+                                    <img src="assets/images/hw1_0002_images.png">
+                                    <a href='#' class='picture'>Hangman
                                     </a>
                                 </div>
-                                <div class="col-4">
-                                    <a href="https://www.linkedin.com/in/jeanniejrose/">
-                                        <img alt="Linkedin" src="../honestgraphics.github.io/assets/images/linkedin.png">
-                                    </a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="https://github.com/honestgraphics">
-                                        <img alt="Stack Overflow" src="../honestgraphics.github.io/assets/images/git.png">
+                            </div>
+                            <div class="col-6">
+                                <div class='portfolio2'>
+                                    <img src="assets/images/hw1_0003_haxDX77JK9znAxkb3y5HKTwv.png">
+                                    <a href='#' class='picture'>RPG Game
                                     </a>
                                 </div>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class='portfolio3'>
+                                    <img src="assets/images/hw1_0005_Screenshot-2016-01-25-16.42.12.png">
+                                    <a href='#' class='picture'>Trivia Game
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class='portfolio4'>
+                                    <img src="assets/images/hw1_0000_download-(1).png">
+                                    <a href='#' class='picture'>Rutgers Info Widget
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class='portfolio5'>
+                                    <img src="assets/images/untitled-1.png">
+                                    <a href='#' class='picture'>Rock Paper Scissors
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                            </div>
+                        </div>
+                    </div> <!-- PORTFOLIO COLUMN CLOSE -->
+
+
+                    <div class="col-1"> <!-- ABOUT ME COLUMN -->
                     </div>
-                </div> <!-- CONNECT WITH ME COLUMN CLOSE -->
+                    <div class="col-3 connectwithmeWrapper"> <!-- CONNECT WITH ME COLUMN -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <h1 class="title connectwithMe">Connect With Me</h1>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href="https://stackexchange.com/users/12941379/jeannie-rose">
+                                            <img alt="Github" src="../honestgraphics.github.io/assets/images/stackoverflow.png">
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="https://www.linkedin.com/in/jeanniejrose/">
+                                            <img alt="Linkedin" src="../honestgraphics.github.io/assets/images/linkedin.png">
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="https://github.com/honestgraphics">
+                                            <img alt="Stack Overflow" src="../honestgraphics.github.io/assets/images/git.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- CONNECT WITH ME COLUMN CLOSE -->
+                </div>
+            </div>
+            <div class="col-1">
             </div>
         </div>
-        <div class="col-1">
-        </div>
-    </div>
-    <div class="row"> <!-- FOOTER -->
-        <footer>
-            &copy; 2018 Jeannie Rose
-        </footer>
-    </div> <!-- FOOTER CLOSE-->
-    
-    
+        <div class="row"> <!-- FOOTER -->
+            <footer>
+                &copy; 2018 Jeannie Rose
+            </footer>
+        </div> <!-- FOOTER CLOSE-->
+
+
+
+        
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
