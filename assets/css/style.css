@@ -1,43 +1,24 @@
 /* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
-
 /* FOR ALL PAGES */
 
-
-body {
-    background-image: url("../images/b1.png");
-}
-
-
-.bodyWidth {
-    /* padding: 0; */
-    margin-left: 0;
-}
-
-/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
 /* HEADER AREA */
-
-/* .headerWrapper {
-    font-size: 24px;
+/* STYLE/BORDER/COLOR FOR WHOLE HEADER AREA */
+.headerClass {
     border-top: 2px solid #d0cdc7;
     border-bottom: 2px solid #d0cdc7;
-    background-color: #fff;
+    background-color: white;
+    font-size: 24px;
 }
-
-.headerContainer {
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
-    margin: 0 auto;
-}
-
-.nameContainer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #11ab9f;
+.navbar-brand {
     color: white;
-    display: inline-block;
-} */
-
+    background-color: #11ab9f;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.navbar {
+    padding: 0;
+}
+/* POSITIONS & STYLES NAME */
 .Jeannie {
     font-size: 40px;
     padding-left: 40px;
@@ -46,7 +27,6 @@ body {
     color: white;
     background-color: #11ab9f;
 }
-
 .Rose {
     font-size: 50px;
     font-family: 'Francois One', sans-serif;
@@ -55,68 +35,7 @@ body {
     color: white;
     background-color: #11ab9f;
 }
-
-
-
-/* POSITIONS & STYLES SEPERATORS */
-.navbar-nav li {
-    display: inline;
-    color: #a6acb7;
-    /* margin-left: 25px;
-    padding-left: 25px; */
-    }
-
-.navbar-light .navbar-nav .nav-link {
-    color: #a6acb7;
-}
-
-.seperator {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 50px;
-    padding-bottom: 25px;
-    font-size: 26px;
-}
-
-
-
 /* STYLES MENU LINKS */
-.link1 {
-    /* border-right: 1px solid #e2e0dd; */
-    padding-right: 20px;
-    padding-left: 20px;
-    font-family: 'Francois One', sans-serif;
-}
-
-.link2 {
-    /* border-right: 1px solid #e2e0dd; */
-    padding-right: 20px;
-    padding-left: 20px;
-    font-family: 'Francois One', sans-serif;
-}
-
-.link3 {
-    padding-left: 20px;
-    font-family: 'Francois One', sans-serif;
-}
-
-.headerClass {
-    border-top: 2px solid #d0cdc7;
-    border-bottom: 2px solid #d0cdc7;
-    background-color: white;
-    font-size: 24px;
-}
-
-.navbar-brand {
-    color: white;
-    background-color: #11ab9f;
-    padding-top: 30px;
-    padding-bottom: 25px;
-}
-
-.navbar {
-    padding: 0;
-}
-
 .menuItems {
     /* border-right: 1px solid #e2e0dd; */
     padding-right: 20px;
@@ -126,24 +45,75 @@ body {
     padding-bottom: 25px;
     color: #a6acb7;
 }
-
-/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
-
-
-/* MAIN CONTENT AREA */
-
-/* .bodyContainer {
-    width: 85%;
-    margin: 0 auto;
+/* POSITIONS & STYLES SEPERATORS */
+.navbar-nav li {
+    display: inline;
+    color: #a6acb7;
+    /* margin-left: 25px;
+    padding-left: 25px; */
+    }
+.navbar-light .navbar-nav .nav-link {
+    color: #a6acb7;
+}
+.seperator {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 26px;
 }
 
-.content {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-} */
+
+/* MAIN BODY AREA */
+body {
+    background-image: url("../images/b1.png");
+}
+.bodyWidth {
+    /* padding: 0; */
+    margin-left: 0;
+}
 
 
+/* CONNECT WITH ME AREA */
+.connectwithmeWrapper {
+    background-color: #fff;
+    margin-top: 25px;
+    /* width: 21%; */
+    height: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #e2e0dd;
+}
+.connectwithMe {
+    font-size: 24px;
+    width: 100%;
+    /* font-style: bold; */
+    border-bottom: 2px solid #efeeec;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    color: #11ab9f;
+    font-family: 'Francois One', sans-serif;
+}
+
+
+/* FOOTER AREA */
+footer {
+    width: 100%;
+    background-color: #666666;
+    color: #aeaeae;
+    text-align: Center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+    border-top: 5px solid #56aaa4;
+    font-family: 'Francois One', sans-serif;
+}
+
+
+
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
+/* MAIN CONTENT AREA */
 
 .aboutmeWrapper {
     background-color: #fff;
@@ -155,7 +125,6 @@ body {
     font-size: 18px;
     border: 1px solid #e2e0dd;
 }
-
 
 .aboutMe {
     border-bottom: 3px solid #eeedeb;
@@ -189,73 +158,7 @@ ul {
     line-height: 37px;
 }
 
-.connectwithmeWrapper {
-    background-color: #fff;
-    margin-top: 25px;
-    /* width: 21%; */
-    height: 100%;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border: 1px solid #e2e0dd;
-}
-
-.connectwithMe {
-    font-size: 24px;
-    width: 100%;
-    /* font-style: bold; */
-    border-bottom: 2px solid #efeeec;
-    margin-bottom: 24px;
-    padding-bottom: 24px;
-    color: #11ab9f;
-    font-family: 'Francois One', sans-serif;
-}
-
-/* .socialContainer {
-    width: 100%;
-    } */
-
-/* .imageLink {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.social1 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.social2 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.social3 {
-    display: flex;
-    justify-content: space-between;
-} */
-
 /* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
-
-/* FOOTER AREA */
-
-footer {
-    width: 100%;
-    background-color: #666666;
-    color: #aeaeae;
-    text-align: Center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 16px;
-    border-top: 5px solid #56aaa4;
-    font-family: 'Francois One', sans-serif;
-}
-
-/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
-
 /* Portfolio Page */
 
 .portfolioWrapper {
@@ -280,6 +183,7 @@ footer {
     font-family: 'Francois One', sans-serif;
 }
 
+/* POSITIONING BANNERS OVER IMAGES & STYLING */
 .portfolioRow1 {
     display: flex;
     justify-content: space-between;
@@ -370,7 +274,6 @@ a.picture {
 }
 
 /* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
-
 /* Contact Page */
 
 .formContainer {
@@ -388,6 +291,7 @@ a.picture {
     font-family: 'Francois One', sans-serif;
 }
 
+/* FORM STYLING */
 .form {
     font-family: 'Francois One', sans-serif;
     color: #a1a6ac;
@@ -410,8 +314,6 @@ input[type=text], select, textarea {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
- 
-
 button[type=submit] {
     background-color: #56aaa4;
     color: white;
@@ -426,3 +328,57 @@ button[type=submit] {
 button[type=submit]:hover {
     background-color: #3d7a76;
 }
+
+
+
+
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
+/* RESPONSIVENESS */
+
+
+
+@media screen and (max-width: 640px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+
+
+
+
+
+    /* .backimg4 {
+        z-index: 0;
+        max-width: 172px;
+        max-height: 160px;
+        position: relative;
+                    top: 2%;
+        text-align: center;
+        float: right;
+                    
+        }
+    }
+
+    .footer {
+        z-index: 1;
+        position: relative;
+        text-align: left;
+        float: left;
+        size: 30%;
+        }
+    }
+    
+    .backimg {
+       z-index: 0;
+       max-width: 250px;
+       max-height: 250px;
+       position: relative;
+                  
+      }
+    } */
