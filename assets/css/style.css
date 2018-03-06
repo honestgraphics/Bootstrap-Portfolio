@@ -207,11 +207,11 @@ ul {
 }
 
 .portfolio1 {
-    position: relative;
-    box-sizing: border-box;
-    flex-shrink: 0;
-    height: auto;
-    overflow: hidden;
+    /* position: relative; */
+    /* box-sizing: border-box; */
+    /* flex-shrink: 0; */
+    /* height: auto; */
+    /* overflow: hidden; */
 }
 
 .portfolio2 {
@@ -265,12 +265,18 @@ a.picture {
     background-color: #ff8207;
     width: 100%;
     left: 0;
-    padding: 40px;
+    padding: .8em;
     box-sizing: border-box;
     color: white;
     font-family: 'Francois One', sans-serif;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1.8rem;
+}
+
+.card {
+    margin-bottom: 1.5em;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
@@ -338,47 +344,96 @@ button[type=submit]:hover {
 /* RESPONSIVENESS */
 
 
-
-@media screen and (max-width: 640px) {
-
-}
-
-@media screen and (max-width: 768px) {
-
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
 
 
-
-
-
-
-    /* .backimg4 {
-        z-index: 0;
-        max-width: 172px;
-        max-height: 160px;
-        position: relative;
-                    top: 2%;
-        text-align: center;
-        float: right;
-                    
-        }
+@media screen and (max-width: 440px) {
+    .hide {
+        display: none;
     }
-
-    .footer {
-        z-index: 1;
-        position: relative;
-        text-align: left;
-        float: left;
-        size: 30%;
-        }
+    .card {
+        margin-bottom: 30px;
     }
-    
-    .backimg {
-       z-index: 0;
-       max-width: 250px;
-       max-height: 250px;
-       position: relative;
-                  
+    a.picture {
+        font-size: .6rem;
+    }
+    .hideSep {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .hide {
+        display: none;
+    }
+    a.picture {
+        font-size: .9rem;
+        padding-left: .9rem;
+        padding-right: .9rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        top: 76.5%;
+    }
+    .hideSep {
+        display: none;
+    }
+    .menuItems {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .Jeannie {
+        padding-left: 15px;
+    }
+    .navbar-toggler {
+        background-color: #56aaa4;
+        text-decoration-color: #ffffff;
+    }
+    span:navbar-toggler-icon {
+        border-color: #ffffff;
+        color: #ffffff;
+    }
+    .connectwithmeWrapper {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    a.picture {
+        font-size: 1.45rem;
       }
-    } */
+}
+
+
+
+
+/* html {
+    font-size: 1rem;
+  } */
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    a.picture {
+      font-size: 1.8rem;
+    }
+  }
+
+
+
+
+
+
